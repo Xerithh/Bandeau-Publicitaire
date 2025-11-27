@@ -1,0 +1,44 @@
+# Ignorer les fichiers et dossiers générés par l'IDE
+.vscode/
+.idea/
+*.iml
+
+# Ignorer les fichiers de construction et binaires
+target/
+bin/
+out/
+
+# Ignorer les fichiers de sauvegarde, temporaires et autres
+*.bak
+*.swp
+*.tmp
+*.log
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers spécifiques aux environnements Unix/Mac
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+.trash/
+
+# Ignorer les fichiers d'environnement (exemple : Python, Node, spécifiques au projet)
+.env
+node_modules/
+dist/
+
+# Ignorer les résultats de tests ou rapports de compilateurs
+*.coverage
+*.test-results
+
+# Ignorer les fichiers de sécurité ou de configuration locale
+*.key
+*.pem
+*.crt
+
+# Informations spécifiques ajoutées par vos besoins
+./target/
+./.vscode
+.settings
